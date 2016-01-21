@@ -1,0 +1,9 @@
+zuul:  
+  routes:
+    foobar:
+      path: /bar/**
+      url: http://localhost:8080/foo
+    wsr:
+      path: /wsr/**
+      url: http://walery.codes/
+      
